@@ -1,11 +1,11 @@
 [
     {
-        "Name": "I'm Vivek Rajput",
+        "Name": "Dhruv Shukla",
         "Role": "Designer & Developer",
         "Description": "Crafting seamless experiences and bold visuals. College student by day, creative thinker, and aspiring innovator by night."
     },
     {
-        "AboutPara1": "I’m Vivek Rajput, a curious designer, coder, and a problem solver. Currently a student at Jabalpur Engineering College, but always exploring the limitless possibilities of creativity and technology.",
+        "AboutPara1": "Dhruv Shukla, a curious designer, coder, and a problem solver. Currently a student at Jabalpur Engineering College, but always exploring the limitless possibilities of creativity and technology.",
         "AboutPara2": "I thrive on transforming problems into solutions, ideas into reality, whether it's crafting digital interfaces, designing immersive visuals, or building websites that feel effortless to use."
     },
     [
@@ -27,28 +27,22 @@
     ],
     [
         {
-            "time_period": "June 2025 - Present",
-            "role": "Technical Member at",
+            "time_period": "Dec 2024 - Jan 2025",
+            "role": "UI/UX Design Intern at",
             "companylogo": "/assets/CosmosLogo.png",
             "companyname": "Cosmos"
         },
         {
-            "time_period": "March 2025 - Present",
-            "role": "Technical Member at",
-            "companylogo": "/assets/JlugLogo.png",
-            "companyname": "JLUG"
-        },
-        {
-            "time_period": "Feb 2025 - Present",
-            "role": "Technical Member at",
-            "companylogo": "/assets/CurvvLogo.png",
-            "companyname": "Curvv"
+            "time_period": "June 2025 - Aug 2025",
+            "role": "Fullstack Dev Intern at",
+            "companylogo": "/assets/growthify.png",
+            "companyname": "Growthify"
         }
     ],
     {
         "para": "I’m always interested in exploring new opportunities, or exchanging ideas with like-minded individuals. Feel free to contact me if you'd like to connect or to discuss a potential project"
     },
     {
-        "copyright_message": "Copyright © 2025 TheVivekRajput002. All rights reserved."
+        "copyright_message": "Copyright © 2025 DhruvShukla4828. All rights reserved."
     }
 ]

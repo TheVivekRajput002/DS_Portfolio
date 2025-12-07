@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactIcon from '/assets/ReactIcon.png'
-import SupabaseIcon from '/assets/SupabaseIcon.png'
+import pytorch from '/assets/pytorch.png'
 import MysqlIcon from '/assets/MysqlIcon.png'
 import PostgresqlIcon from '/assets/PostgresqlIcon.png'
-import HtmlIcon from '/assets/HtmlIcon.png'
+import tensorflow from '/assets/Tensorflow.png'
 import CssIcon from '/assets/CssIcon.png'
 import JavascriptIcon from '/assets/JavascriptIcon.png'
 import GithubIcon from '/assets/GithubIcon.png'
@@ -18,18 +18,15 @@ import TailwindcssIcon from '/assets/TailwindcssIcon.png'
 
 export default function InfiniteFlow() {
   const icons = [
-    { id: 1, img: HtmlIcon },
-    { id: 2, img: CssIcon },
+    { id: 1, img: tensorflow },
+    { id: 2, img: pytorch },
     { id: 3, img: ReactIcon },
-    { id: 4, img: SupabaseIcon },
-    { id: 5, img: PostgresqlIcon },
-    { id: 6, img: MysqlIcon },
-    { id: 7, img: JavascriptIcon },
-    { id: 8, img: PythonIcon },
-    { id: 9, img: FramermotionIcon },
-    { id: 10, img: FigmaIcon },
-    { id: 11, img: TailwindcssIcon },
-    { id: 12, img: GithubIcon },
+    { id: 4, img: MysqlIcon },
+    { id: 5, img: JavascriptIcon },
+    { id: 6, img: PythonIcon },
+    { id: 7, img: FigmaIcon },
+    { id: 8, img: TailwindcssIcon },
+    { id: 9, img: GithubIcon },
   ];
 
   // Duplicate once for seamless loop

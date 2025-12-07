@@ -11,41 +11,34 @@ import About from '../components/About';
 import ProjectsSection from '../components/ProjectsSection';
 import HomeData from '../data/HomeData.json'
 import WorkExperience from '../components/WorkExperience';
+import TechSection from '../components/TechSection';
 
 
 const Home = () => {
     return (
-        < div className='mx-[14%] pt-[10%] max-md:pt-[24%] max-md:mx-[5%] pb-90'>
+        < div className='mx-[14%] pt-[5%] max-md:pt-[24%] max-md:mx-[5%] pb-10'>
             {/* 
             <div className='bg-[var(--color-innerbg)] text-[var(--color-maintext)] max-md:pt-[7vh] pt-45 border-t-0 border-b-0 pb-25 max-md:pb-15 max-md:w-[95%] max-xl:w-[80%] w-[55%] pr-[9%] pl-[9%] m-auto border-[1.5px] border-r-[var(--color-lightgray)] border-l-[var(--color-lightgray)] overflow-hidden'>
             </div> */}
 
-            <div className='relative bottom-13 max-md:bottom-10'>
+            <div className='relative'>
                 <HeroSection Name={HomeData[0].Name} Role={HomeData[0].Role} Description={HomeData[0].Description} />
             </div>
 
-            <motion.div
-                initial={{
-                    opacity: 0
-                }}
-                animate={{
-                    opacity: 1
-                }}
-                transition={{
-                    delay: 2.8
-                }}
-                className='absolute left-0 right-0'>
-                {/* <InfiniteScroll /> */}
-                <InfiniteFlow />
-            </motion.div>
+            <div className='relative'>
 
-            <div className='relative top-90 max-md:top-65'>
-
-                <About Para1={HomeData[1].AboutPara1} Para2={HomeData[1].AboutPara2} />
-                <div className='mt-16'>
+                <div className='my-20'>
                     <IconsFlow />
 
                 </div>
+
+                <About Para1={HomeData[1].AboutPara1} Para2={HomeData[1].AboutPara2} />
+
+                <div className='mt-10'>
+
+                <TechSection />
+                </div>
+
 
                 <ProjectsSection projects={HomeData[2]} />
 
@@ -59,7 +52,7 @@ const Home = () => {
 
                 <GetInTouch conclusion={HomeData[4]} />
 
-                <div className='max-md:pt-[10vh] pt-30 pb-10 max-md:pb-[4vh]'>
+                <div className='max-md:pt-[10vh] pt-30 '>
                     <Footer footer={HomeData[5]} />
                 </div>
 
